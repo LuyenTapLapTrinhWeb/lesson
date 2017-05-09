@@ -1,0 +1,197 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    ! font: inherit;
+}
+
+h1, h2, h3 {
+    color: green;
+}
+
+body {
+    padding: 20px 20px 20px 20px;
+    background: #000000 url(./images/pb-5.jpg) top left repeat;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+
+ul {
+    padding: 0 0 0 50px;
+}
+
+ol {
+    padding: 0 0 0 50px;
+}
+/*==========================================================*/
+/*                      Phần 5 web form tags selectors*/
+/*==========================================================*/
+label, input{
+  display: block;
+}
+label{
+  margin-bottom: 10px;
+}
+input{
+  width: 500px;
+  margin-bottom: 25px;
+}
+input[type=submit]{
+  width: 220px;
+  font-size: 20px;
+  border: 2px solid #7facaa;
+  paddin: 7px;
+}
+input[type=text]{
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=email]{
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+textarea{
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+input[type=checkbox], label[for=newsletter] {
+display: inline;
+}
+/*==========================================================*/
+.nav {
+    padding-left: 0;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+
+.nav li a {
+    color: darkred;
+}
+
+.nav a {
+    color: red;
+    text-decoration: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.recipes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes li {
+    border: 1px solid #b56663;
+    padding-left: 1px;
+    margin-top: 5px;
+    background: #ffffff url(./images/pb-6kesoccheo.jpg) top left repeat;
+}
+
+.recipes h3 {
+    border-bottom: 0;
+}
+
+.recipes a {
+    color: red;
+    text-decoration: none;
+}
+
+.recipes img {
+    width: 80px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+.header {
+    padding 10px 10px 10px 10px;
+    background-color: mediumvioletred;
+    background: #ffffff url(./images/pb-4.jpg)top left repeat;
+}
+
+.header a {
+    color: #ffffff;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+
+/*có tồn tại thẻ h1 selector tags*/
+
+.main-content {
+    width: 500px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dddddd;
+    margin: 30px auto 0 auto;
+    background: #5f5f5f url(./images/pb-5chambi.jpg) top left repeat;
+}
+.main-content p {
+  line-height: 26px;
+}
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photos li {
+    display: inline;
+    padding-left: 11px;
+}
+
+.photos li img {
+    height: 115px;
+}
+
+.featured-image {
+    width: 434px;
+    height: 278px;
+    background: #ffffff url(./images/featured-cake.png) top left no-repeat;
+    /*padding: 20px auto 0 auto;*/
+}
+
+.featured-image h3 {
+    margin: 0;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 5px 0 5px 15px;
+    text-transform: uppercase;
+}
+
+.footer p {
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}
